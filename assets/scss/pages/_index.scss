@@ -1,0 +1,38 @@
+
+.r-16{
+  border-radius: 16px;
+}
+
+.mt-100{
+  margin-top: 100px;
+}
+
+.clock-status{
+  background-color: #D3F0CA;
+  padding: 0px 6px 0px 6px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+
+.form-check-input:checked {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn{
+  font-size: 20px;
+  padding: 14px 24px 14px 24px;
+}
+
+.toast{
+  width: 550px; 
+  border: none; 
+  border-radius: 16px;
+  &-header{
+    border-radius:16px 16px 0px 0px;
+  }
+  &-body{
+    border-radius: 16px;
+  }
+}

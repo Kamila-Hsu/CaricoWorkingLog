@@ -302,10 +302,14 @@ $primary:       #0DA34C !default; //kami
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
-$warning:       $yellow !default;
+$warning:       #E12222 !default; //kami
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
+$gray-200:      $gray-200 !default; //kami
+$gray-400:      $gray-400 !default; //kami
+$gray-500:      $gray-500 !default; //kami
+
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map

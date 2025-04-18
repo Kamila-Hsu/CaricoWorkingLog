@@ -52,22 +52,22 @@
             <div>
               <span class="text-secondary fs-6">遲到</span>
               <br>
-              <h4 class="fw-light">3</h4>
+              <h4 class="fw-light num">3</h4>
             </div>
             <div class="ms-3">
               <span class="text-secondary fs-6">早退</span>
               <br>
-              <h4 class="fw-light">3</h4>
+              <h4 class="fw-light num">2</h4>
             </div>
             <div class="ms-3">
               <span class="text-secondary fs-6">曠職</span>
               <br>
-              <h4 class="fw-light">3</h4>
+              <h4 class="fw-light num">4</h4>
             </div>
             <div class="ms-3">
               <span class="text-secondary fs-6">未打下班卡</span>
               <br>
-              <h4 class="fw-light">0</h4>
+              <h4 class="fw-light num">0</h4>
             </div>
 
           </div>
@@ -89,7 +89,10 @@
         </button>
       </div>
 
-      <button class="btn btn-light r-16 border_2px">創建員工帳號</button>
+      <div class="d-flex align-items-center">
+        <button class="btn btn-light r-16 border_2px me-3">刪除員工帳號</button>
+        <button class="btn btn-light r-16 border_2px">創建員工帳號</button>
+      </div>
 
     </div>
 
@@ -100,14 +103,16 @@
         <div class="modal-content p-4 rounded-4">
           <div class="modal-body">
             <div class="d-flex justify-content-between align-items-center mb-3">
-              <p class="mb-0 text-secondary">選擇類別 *選填*</p>
+              <p class="mb-0 text-secondary">選擇<span class="text-danger">異常</span>類別 *選填*</p>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
-            <div class="d-flex gap-2 mb-4">
+            <div class="d-flex gap-2 mb-4 flex-wrap">
+              <button class="btn filter-btn">全部</button>
+              <button class="btn filter-btn">曠職</button>
               <button class="btn filter-btn active">遲到</button>
               <button class="btn filter-btn">早退</button>
-              <button class="btn filter-btn">未打卡</button>
+              <button class="btn filter-btn">未打下班卡</button>
             </div>
 
             <div class="mb-4">
@@ -147,8 +152,8 @@
             <tr>
               <td>1</td>
               <td>許之瑜 <br><small class="small-block">040</small></td>
-              <td>2025/2/17</td>
-              <td class="nowrap">08:57 AM — 06:02 PM</td>
+              <td class="num">2025/2/17</td>
+              <td class="nowrap num">08:57 AM — 06:02 PM</td>
               <td><span class="status-normal">正常</span></td>
               <td>公司外</td>
               <td>請病假/生理假 <button class="underline border-0 p-2 ms-2" data-bs-toggle="modal"
@@ -157,8 +162,8 @@
             <tr>
               <td>2</td>
               <td>許之瑜 <br><small class="small-block">040</small></td>
-              <td>2025/2/17</td>
-              <td class="nowrap">08:57 AM — 06:02 PM</td>
+              <td class="num">2025/2/17</td>
+              <td class="nowrap num">08:57 AM — 06:02 PM</td>
               <td><span class="status-normal">正常</span></td>
               <td>公司外</td>
               <td>請病假/生理假 <button class="underline border-0 p-2 ms-2" data-bs-toggle="modal"
@@ -167,8 +172,8 @@
             <tr>
               <td>3</td>
               <td>許之瑜 <br><small class="small-block">040</small></td>
-              <td>2025/2/17</td>
-              <td class="nowrap">08:57 AM — 06:02 PM</td>
+              <td class="num">2025/2/17</td>
+              <td class="nowrap num">08:57 AM — 06:02 PM</td>
               <td><span class="status-abnormal">異常:遲到</span></td>
               <td>公司外</td>
               <td>請病假/生理假 <button class="underline border-0 p-2 ms-2" data-bs-toggle="modal"
@@ -177,8 +182,8 @@
             <tr>
               <td>4</td>
               <td>許之瑜 <br><small class="small-block">040</small></td>
-              <td>2025/2/17</td>
-              <td class="nowrap">08:57 AM — 06:02 PM</td>
+              <td class="num">2025/2/17</td>
+              <td class="nowrap num">08:57 AM — 06:02 PM</td>
               <td><span class="status-abnormal">異常:未打卡</span></td>
               <td>公司外</td>
               <td>請病假/生理假 <button class="underline border-0 p-2 ms-2" data-bs-toggle="modal"
